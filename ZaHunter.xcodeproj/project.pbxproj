@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4762793E1BCEF471000CD5CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4762793D1BCEF471000CD5CF /* main.m */; };
+		476279411BCEF471000CD5CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 476279401BCEF471000CD5CF /* AppDelegate.m */; };
+		476279441BCEF471000CD5CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476279431BCEF471000CD5CF /* ViewController.m */; };
+		476279471BCEF471000CD5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476279451BCEF471000CD5CF /* Main.storyboard */; };
+		476279491BCEF471000CD5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476279481BCEF471000CD5CF /* Assets.xcassets */; };
+		4762794C1BCEF471000CD5CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4762794A1BCEF471000CD5CF /* LaunchScreen.storyboard */; };
+		476279571BCEF471000CD5CF /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 476279561BCEF471000CD5CF /* ZaHunterTests.m */; };
+		476279621BCEF471000CD5CF /* ZaHunterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 476279611BCEF471000CD5CF /* ZaHunterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		476279531BCEF471000CD5CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476279311BCEF471000CD5CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476279381BCEF471000CD5CF;
+			remoteInfo = ZaHunter;
+		};
+		4762795E1BCEF471000CD5CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476279311BCEF471000CD5CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476279381BCEF471000CD5CF;
+			remoteInfo = ZaHunter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		476279391BCEF471000CD5CF /* ZaHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4762793D1BCEF471000CD5CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4762793F1BCEF471000CD5CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		476279401BCEF471000CD5CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		476279421BCEF471000CD5CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		476279431BCEF471000CD5CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		476279461BCEF471000CD5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		476279481BCEF471000CD5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4762794B1BCEF471000CD5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4762794D1BCEF471000CD5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476279521BCEF471000CD5CF /* ZaHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		476279561BCEF471000CD5CF /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		476279581BCEF471000CD5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4762795D1BCEF471000CD5CF /* ZaHunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		476279611BCEF471000CD5CF /* ZaHunterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterUITests.m; sourceTree = "<group>"; };
+		476279631BCEF471000CD5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		476279361BCEF471000CD5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4762794F1BCEF471000CD5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4762795A1BCEF471000CD5CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476279301BCEF471000CD5CF = {
+			isa = PBXGroup;
+			children = (
+				4762793B1BCEF471000CD5CF /* ZaHunter */,
+				476279551BCEF471000CD5CF /* ZaHunterTests */,
+				476279601BCEF471000CD5CF /* ZaHunterUITests */,
+				4762793A1BCEF471000CD5CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4762793A1BCEF471000CD5CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				476279391BCEF471000CD5CF /* ZaHunter.app */,
+				476279521BCEF471000CD5CF /* ZaHunterTests.xctest */,
+				4762795D1BCEF471000CD5CF /* ZaHunterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4762793B1BCEF471000CD5CF /* ZaHunter */ = {
+			isa = PBXGroup;
+			children = (
+				4762793F1BCEF471000CD5CF /* AppDelegate.h */,
+				476279401BCEF471000CD5CF /* AppDelegate.m */,
+				476279421BCEF471000CD5CF /* ViewController.h */,
+				476279431BCEF471000CD5CF /* ViewController.m */,
+				476279451BCEF471000CD5CF /* Main.storyboard */,
+				476279481BCEF471000CD5CF /* Assets.xcassets */,
+				4762794A1BCEF471000CD5CF /* LaunchScreen.storyboard */,
+				4762794D1BCEF471000CD5CF /* Info.plist */,
+				4762793C1BCEF471000CD5CF /* Supporting Files */,
+			);
+			path = ZaHunter;
+			sourceTree = "<group>";
+		};
+		4762793C1BCEF471000CD5CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4762793D1BCEF471000CD5CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		476279551BCEF471000CD5CF /* ZaHunterTests */ = {
+			isa = PBXGroup;
+			children = (
+				476279561BCEF471000CD5CF /* ZaHunterTests.m */,
+				476279581BCEF471000CD5CF /* Info.plist */,
+			);
+			path = ZaHunterTests;
+			sourceTree = "<group>";
+		};
+		476279601BCEF471000CD5CF /* ZaHunterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				476279611BCEF471000CD5CF /* ZaHunterUITests.m */,
+				476279631BCEF471000CD5CF /* Info.plist */,
+			);
+			path = ZaHunterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		476279381BCEF471000CD5CF /* ZaHunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476279661BCEF471000CD5CF /* Build configuration list for PBXNativeTarget "ZaHunter" */;
+			buildPhases = (
+				476279351BCEF471000CD5CF /* Sources */,
+				476279361BCEF471000CD5CF /* Frameworks */,
+				476279371BCEF471000CD5CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZaHunter;
+			productName = ZaHunter;
+			productReference = 476279391BCEF471000CD5CF /* ZaHunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		476279511BCEF471000CD5CF /* ZaHunterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476279691BCEF471000CD5CF /* Build configuration list for PBXNativeTarget "ZaHunterTests" */;
+			buildPhases = (
+				4762794E1BCEF471000CD5CF /* Sources */,
+				4762794F1BCEF471000CD5CF /* Frameworks */,
+				476279501BCEF471000CD5CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476279541BCEF471000CD5CF /* PBXTargetDependency */,
+			);
+			name = ZaHunterTests;
+			productName = ZaHunterTests;
+			productReference = 476279521BCEF471000CD5CF /* ZaHunterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4762795C1BCEF471000CD5CF /* ZaHunterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4762796C1BCEF471000CD5CF /* Build configuration list for PBXNativeTarget "ZaHunterUITests" */;
+			buildPhases = (
+				476279591BCEF471000CD5CF /* Sources */,
+				4762795A1BCEF471000CD5CF /* Frameworks */,
+				4762795B1BCEF471000CD5CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4762795F1BCEF471000CD5CF /* PBXTargetDependency */,
+			);
+			name = ZaHunterUITests;
+			productName = ZaHunterUITests;
+			productReference = 4762795D1BCEF471000CD5CF /* ZaHunterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		476279311BCEF471000CD5CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Francis Bato";
+				TargetAttributes = {
+					476279381BCEF471000CD5CF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					476279511BCEF471000CD5CF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 476279381BCEF471000CD5CF;
+					};
+					4762795C1BCEF471000CD5CF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 476279381BCEF471000CD5CF;
+					};
+				};
+			};
+			buildConfigurationList = 476279341BCEF471000CD5CF /* Build configuration list for PBXProject "ZaHunter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 476279301BCEF471000CD5CF;
+			productRefGroup = 4762793A1BCEF471000CD5CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476279381BCEF471000CD5CF /* ZaHunter */,
+				476279511BCEF471000CD5CF /* ZaHunterTests */,
+				4762795C1BCEF471000CD5CF /* ZaHunterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		476279371BCEF471000CD5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4762794C1BCEF471000CD5CF /* LaunchScreen.storyboard in Resources */,
+				476279491BCEF471000CD5CF /* Assets.xcassets in Resources */,
+				476279471BCEF471000CD5CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476279501BCEF471000CD5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4762795B1BCEF471000CD5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		476279351BCEF471000CD5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476279441BCEF471000CD5CF /* ViewController.m in Sources */,
+				476279411BCEF471000CD5CF /* AppDelegate.m in Sources */,
+				4762793E1BCEF471000CD5CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4762794E1BCEF471000CD5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476279571BCEF471000CD5CF /* ZaHunterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476279591BCEF471000CD5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476279621BCEF471000CD5CF /* ZaHunterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		476279541BCEF471000CD5CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476279381BCEF471000CD5CF /* ZaHunter */;
+			targetProxy = 476279531BCEF471000CD5CF /* PBXContainerItemProxy */;
+		};
+		4762795F1BCEF471000CD5CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476279381BCEF471000CD5CF /* ZaHunter */;
+			targetProxy = 4762795E1BCEF471000CD5CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		476279451BCEF471000CD5CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476279461BCEF471000CD5CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4762794A1BCEF471000CD5CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4762794B1BCEF471000CD5CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		476279641BCEF471000CD5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		476279651BCEF471000CD5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		476279671BCEF471000CD5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZaHunter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancisBato.ZaHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		476279681BCEF471000CD5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZaHunter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancisBato.ZaHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4762796A1BCEF471000CD5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZaHunterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancisBato.ZaHunterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaHunter.app/ZaHunter";
+			};
+			name = Debug;
+		};
+		4762796B1BCEF471000CD5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZaHunterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancisBato.ZaHunterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZaHunter.app/ZaHunter";
+			};
+			name = Release;
+		};
+		4762796D1BCEF471000CD5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZaHunterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancisBato.ZaHunterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZaHunter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4762796E1BCEF471000CD5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZaHunterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FrancisBato.ZaHunterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZaHunter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		476279341BCEF471000CD5CF /* Build configuration list for PBXProject "ZaHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476279641BCEF471000CD5CF /* Debug */,
+				476279651BCEF471000CD5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476279661BCEF471000CD5CF /* Build configuration list for PBXNativeTarget "ZaHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476279671BCEF471000CD5CF /* Debug */,
+				476279681BCEF471000CD5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		476279691BCEF471000CD5CF /* Build configuration list for PBXNativeTarget "ZaHunterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4762796A1BCEF471000CD5CF /* Debug */,
+				4762796B1BCEF471000CD5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4762796C1BCEF471000CD5CF /* Build configuration list for PBXNativeTarget "ZaHunterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4762796D1BCEF471000CD5CF /* Debug */,
+				4762796E1BCEF471000CD5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 476279311BCEF471000CD5CF /* Project object */;
+}
