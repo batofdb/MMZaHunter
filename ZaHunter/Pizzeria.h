@@ -10,8 +10,10 @@
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 
-@interface Pizzeria : MKMapItem
+@interface Pizzeria : NSObject
 
 @property CLLocationDistance distanceFromUser;
+@property MKMapItem *mapItem;
+@property 
 
 @end
